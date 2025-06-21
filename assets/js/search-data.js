@@ -45,7 +45,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-02-28-llm_quiz/";
+            window.location.href = "/blog/2025/2025-02-28-llmquiz/";
           
         },
       },{id: "books-the-godfather",
