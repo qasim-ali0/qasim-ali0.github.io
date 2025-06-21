@@ -418,16 +418,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-will-be-at-cvpr-2025-workshop-on-3d-llm-vla-nashville-tn-presenting-graphpad",
+          title: 'I will be at CVPR 2025 Workshop on 3D-LLM/VLA (Nashville, TN), presenting GraphPad!...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-will-be-at-icml-2025-workshop-on-building-physicall-plausible-world-models-vancouver-bc-presenting-humanoid-world-models",
+          title: 'I will be at ICML 2025 Workshop on Building Physicall Plausible World Models...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-will-be-at-rlc-2025-workshop-on-reward-free-reinforcement-learning-edmonton-ab-presenting-mr-crl",
+          title: 'I will be at RLC 2025 Workshop on Reward-free Reinforcement Learning (Edmonton, AB),...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
