@@ -21,7 +21,7 @@ This project combined robotics, embedded systems, and computer vision to tackle 
 ---
 
 ### Key Features
-- **Autonomous Flight**: Utilized GPS.
+- **Autonomous Flight**: Utilized GPS and IMU.
 - **Mechanical Design**: 3D printed our own drone.
 - **Computer Vision**: Implemented watershed based object detection to identify parking spots.
 

@@ -34,3 +34,5 @@ I'm interested in building and using *World Models* 🌎 to help agents take bet
 Previously, I did my undergrad in Mechatronics Engineering from McMaster University and interned at [Magna Electronic's](https://www.magna.com/company/company-information/magna-groups/magna-electronics) **ADAS division**. During that time I worked with **embedded software** platforms to help get self-driving features working real-time on vehicles, built a control algorithm for getting vehicles to navigate through V2I-connected intersections, and built a [*drone*](https://drive.google.com/file/d/125z5QsjDenNSf7ONLg8X_LwHTOxepNVv/view).
 
 If you're into AI research, robotics, or just want to chat about the future of agents 🤖 — feel free to connect.
+
+P.S. I'm graduating soon — if you're looking for people in AI or robotics to join your team, I'd love to connect.
