@@ -92,7 +92,7 @@
       "publisher": "ICML 2025 Workshop on Building Physically-Plausible World Models",
       "releaseDate": "2025-05-20",
       "url": "https://arxiv.org/abs/2506.01182",
-      "summary": "Trained video-based world models for humanoid robotics using diffusion, flow matching, and masked transformers. Achieved size reductions and high data efficiency."
+      "summary": "Trained video-based world models for humanoid robotics using diffusion, flow matching, and masked transformers. Used parameter reduction strategies to reduce model size."
     },
     {
       "name": "GraphPad: Inference-Time 3D Scene Graph Updates for Embodied Question Answering",
@@ -111,9 +111,16 @@
     {
       "name": "MGSO: Monocular Real-time Photometric SLAM with Efficient 3D Gaussian Splatting",
       "publisher": "ICRA 2025, Main conference",
-      "releaseDate": "2024-09-13",
+      "releaseDate": "2024-09-19",
       "url": "https://arxiv.org/abs/2409.13055",
-      "summary": "Helped develop a real-time 3D reconstruction algorithm using Gaussian Splatting and DSO SLAM. Team achieved state of the art visual quality and FPS. Note: I was not the lead author on this paper, but contributed to the gaussian splatting improvements."
+      "summary": "Helped develop a real-time 3D reconstruction algorithm using Gaussian Splatting and DSO SLAM. Team achieved state of the art visual quality and FPS. \n Note: I was not the lead author on this paper, but contributed to the gaussian splatting improvements."
+    },
+    {
+      "name": "RepViT-MedSAM: Efficient Segment Anything in the Medical Images",
+      "publisher": "Springer, Cham (Lecture Notes in Computer Science, vol 15458)",
+      "releaseDate": "2025-02-19",
+      "url": "https://doi.org/10.1007/978-3-031-81854-7_13",
+      "summary": "RepViT-MedSAM proposes an efficient, distilled alternative to MedSAM for medical image segmentation, achieving strong Dice and NSD scores while reducing computational cost. Designed as part of a Medical Imaging contest."
     }
   ],
   "skills": [

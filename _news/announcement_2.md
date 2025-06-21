@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be at ICML 2025 Workshop on [Building Physicall Plausible World Models](https://physical-world-modeling.github.io) (Vancouver, BC), presenting [Humanoid World Models](https://arxiv.org/abs/2506.01182)!
+I will be at ICML 2025 Workshop on [Building Physicall Plausible World Models](https://physical-world-modeling.github.io), presenting [Humanoid World Models](https://arxiv.org/abs/2506.01182)! Hope to see you all in Vancouver!
