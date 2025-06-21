@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-08-05 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I will be at RLC 2025 Workshop on [Reward-free Reinforcement Learning](https://rlbrew2-workshop.github.io/) (Edmonton, AB), presenting MR-CRL!
