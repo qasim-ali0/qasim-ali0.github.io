@@ -6,7 +6,7 @@ subtitle: Graduate student in AI and Robotics
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: # >
     # <p>555 your office number</p>
@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Qasim Ali, a masters student at the University of Waterloo, advised by [Alex Wong](https://www.linkedin.com/in/alexander-wong-90650216/) and [Javad Shafiee](https://www.linkedin.com/in/mohammad-javad-shafiee-61bbaa49/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I've had the chance to work on a variety of projects during my Master's, but broadly I'm interested in building and using world models to help agents take better actions. While LLMs are great at solving simple tasks, I think systems with multi-step reasoning and planning (System 2 reasoning) will require other approaches like Yann LeCun's [JEPA](https://openreview.net/pdf?id=BZ5a1r-kVsf) or [Neural Turing Machines](https://arxiv.org/abs/1410.5401). As an engineer, I operate at the intersection of generative AI, reinforcement learning, and representation learning, working to bring this vision to fruition.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I studied Mechatronics Engineering at McMaster University and interned at Magna Electronics ADAS division. During that time I worked with Embedded Software to help get self-driving features working on real vehicles, built a control algorithm for getting vehicles to navigate through V2I-connected intersections, and built a [drone](https://drive.google.com/file/d/125z5QsjDenNSf7ONLg8X_LwHTOxepNVv/view).
+
+Check out my [Google Scholar](https://scholar.google.com/citations?user=bd0TkF0AAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/muhammad-ali23/), or some of my [publications](/publications/).
+
+If you're into AGI, robotics, or just want to chat about the future of agents 🤖 — feel free to connect.
