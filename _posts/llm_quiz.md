@@ -1,0 +1,27 @@
+---
+layout: post
+title: The LLM Quiz: 25 Questions to Test Your Understanding of LLMs
+date: 2025-02-28 14:00:00
+description: A short quiz-style slideshow to challenge how well you really know large language models
+tags: LLMs AI quiz
+categories: research-posts
+---
+
+How well do you know large language models?
+
+This short, interactive [Google Slides quiz](https://docs.google.com/presentation/d/1dvnVDBSXkFvtzyOeEmtcJrpicqvaJeiRHMOZM-QjEos/edit?usp=sharing) walks through **30 curated questions** designed to test your intuition and knowledge of LLMs — from transformer internals to LLM data. The questions were created from reading ~10 core NLP papers.
+
+> These aren’t just trivia — they’re meant to surface subtle points, common misconceptions, and important details how we build LLMs.
+
+Whether you’re just getting into LLMs or already working with them daily, you’ll likely find a few surprises inside.
+
+#### Sample Topics Covered
+- What *data* does the LLM see during pre-training?
+- What *tokens* are actually used by the LLM?
+- What do causal *attention masks* actually look like? 
+Grab a coffee, try the quiz, and share it with a colleague to compare answers.
+
+👉 [Click here to open the slides](https://docs.google.com/presentation/d/1dvnVDBSXkFvtzyOeEmtcJrpicqvaJeiRHMOZM-QjEos/edit?usp=sharing)
+
+<hr>
+
