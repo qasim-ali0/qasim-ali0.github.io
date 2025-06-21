@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Qasim Ali, a graduate student at the University of Waterloo studying AI, advised by [Alex Wong](https://www.linkedin.com/in/alexander-wong-90650216/) and [Javad Shafiee](https://www.linkedin.com/in/mohammad-javad-shafiee-61bbaa49/).
+Hi! I'm Qasim Ali, a graduate student at the University of Waterloo studying AI. I am advised by [Alex Wong](https://www.linkedin.com/in/alexander-wong-90650216/) and [Javad Shafiee](https://www.linkedin.com/in/mohammad-javad-shafiee-61bbaa49/).
 
 I'm interested in building and using world models 🌎 to help agents take better actions. While LLMs are great at solving simple tasks, I think [System 2 reasoning](https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking) will require alternative architectures like [JEPA](https://openreview.net/pdf?id=BZ5a1r-kVsf) or [Neural Turing Machines](https://arxiv.org/abs/1410.5401). I work in the intersection of generative AI, reinforcement learning, and representation learning on ideas related to this vision.
 
