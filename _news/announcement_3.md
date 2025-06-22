@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I finished second in the [1X World Model Challenge](https://opendrivelab.com/challenge2025/).
+I finished second in the [1X World Model Challenge](https://opendrivelab.com/challenge2025/#1x-wm).
