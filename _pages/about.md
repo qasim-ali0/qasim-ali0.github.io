@@ -35,4 +35,4 @@ I come from a embedded software and robotics background. I did my undergrad in M
 
 If you're into AI research, robotics, or just want to chat about the future of agents 🤖 — feel free to connect.
 
-P.S. I'm graduating soon — if you're looking for people in AI or robotics to join your team, I'd love to connect.
+P.S. I'm graduating soon — if you're looking for people in AI to join your team, I'd love to connect.
