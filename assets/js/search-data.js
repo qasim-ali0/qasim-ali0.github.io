@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-the-llm-quiz-25-questions-to-test-your-understanding-of-llms",
         
-          title: "",
+          title: "The LLM Quiz - 25 Questions to Test Your Understanding of LLMs",
         
-        description: "",
+        description: "A short quiz-style slideshow to challenge how well you really know large language models",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-02-28-llmquiz/";
+            window.location.href = "/blog/2024/llmquiz/";
           
         },
       },{id: "books-the-godfather",
