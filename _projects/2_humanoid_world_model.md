@@ -34,7 +34,7 @@ World foundation models are able to predict high fidelity future video condition
   - *Flow-HWM*: continuous latent space model using flow-matching.
 - **Architecture Variants**: Various attention styles (joint vs. split attention) and weight-sharing strategies were explored, providing up to 53% parameter reduction with minimal performance degradation.
 - **Efficiency**: Trained and deployed using only 1–2 GPUs.
-- **Data**: Trained on 100+ hours of egocentric humanoid video and control traces from the 1xGPT dataset.
+- **Data**: Trained on 100+ hours of egocentric humanoid video and control traces from the [1xGPT](https://github.com/1x-technologies/1xgpt) dataset.
 
 
 ### Sample Predictions
@@ -220,3 +220,7 @@ If you use this work, please cite our ICML workshop paper:
 ---
 
 For code, data, or collaboration inquiries, contact [Qasim Ali](mailto:m45ali@uwaterloo.ca).
+
+# References
+
+**1X Technologies.** (2024). *1X World Model Challenge* (Version 1.1) [Data set].
