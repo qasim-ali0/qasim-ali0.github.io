@@ -9,11 +9,12 @@ giscus_comments: true
 related_publications: true
 ---
 
+![Overview](assets\hwm\overview.png)
+
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate simulation, planning, and synthetic policy learning.
 
 [🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
 
-![Overview](assets\hwm\overview.png)
 
 ---
 
