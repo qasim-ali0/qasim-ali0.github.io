@@ -92,7 +92,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <video src="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="/assets/hwm/sampled_images/mask5.png" width="50%"/>
-    <em>Overlay / Comparison</em>
+    <em>Overlay / Comparison</em><br/>
   </div>
 </div>
 
@@ -169,17 +169,30 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="/assets/hwm/sampled_images/flow7.png" width="50%"/>
-    <em>Overlay / Comparison</em>
+    <em>Overlay / Comparison</em><br/>
   </div>
 
 ---
 
-### Architecture Diagrams
-#### Masked Video Transformer
-![Masked Architecture](/assets/hwm/architecture_diagrams/mask_architecture.png)
+<div style="display: flex; justify-content: center; gap: 2rem; margin: 2rem 0;">
+  <figure style="max-width: 300px; text-align: center;">
+    <img
+      src="/assets/hwm/architecture_diagrams/mask_architecture.png"
+      alt="Masked Video transformer block architecture"
+      style="width: 100%; height: auto;"
+    />
+    <figcaption>Masked Video Transformer</figcaption>
+  </figure>
 
-#### Flow-Matching Model
-![Flow Architecture](/assets/hwm/architecture_diagrams/flow_architecture.png)
+  <figure style="max-width: 300px; text-align: center;">
+    <img
+      src="/assets/hwm/architecture_diagrams/flow_architecture.png"
+      alt="Flow-Matching transformer block architecture"
+      style="width: 100%; height: auto;"
+    />
+    <figcaption>Flow-Matching Model</figcaption>
+  </figure>
+</div>
 
 ---
 
