@@ -85,15 +85,16 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <em>Overlay / Comparison</em>
   </div>
 
-  <div style="flex: 1; min-width: 300px;">
+  <!-- <div style="flex: 1; min-width: 300px;">
     <strong>Sample E</strong><br/>
     <video src="/assets/hwm/sampled_videos/generations/mask5.mp4" width="50%" controls></video><br/>
     <em>Predicted</em><br/>
     <video src="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="/assets/hwm/sampled_images/mask5.png" width="50%"/>
+    <img src="/assets/hwm/sampled_images/mask5.png" width="50%"/><br/>
     <em>Overlay / Comparison</em><br/>
-  </div>
+  </div> -->
+
 </div>
 
 
@@ -141,7 +142,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <em>Overlay / Comparison</em>
   </div>
 
-  <div style="flex: 1; min-width: 300px;">
+  <!-- <div style="flex: 1; min-width: 300px;">
     <strong>Sample E</strong><br/>
     <video src="/assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
@@ -160,7 +161,6 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <img src="/assets/hwm/sampled_images/flow6.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
-</div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample G</strong><br/>
@@ -168,16 +168,18 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <em>Predicted</em><br/>
     <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="/assets/hwm/sampled_images/flow7.png" width="50%"/>
+    <img src="/assets/hwm/sampled_images/flow7.png" width="50%"/><br/>
     <em>Overlay / Comparison</em><br/>
-  </div>
+  </div> -->
+</div>
 
 ---
+### Architecture Diagrams
 
 <div style="display: flex; justify-content: center; gap: 2rem; margin: 2rem 0;">
   <figure style="max-width: 300px; text-align: center;">
     <img
-      src="/assets/hwm/architecture_diagrams/mask_architecture.png"
+      src="/assets/hwm/architecture_diagrams/masked_architecture.png"
       alt="Masked Video transformer block architecture"
       style="width: 100%; height: auto;"
     />
