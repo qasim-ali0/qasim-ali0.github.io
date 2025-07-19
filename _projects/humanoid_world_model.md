@@ -13,7 +13,7 @@ We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight,
 
 ---
 
-### Why world model for humanoids?
+### Why world models for humanoids?
 World foundation models, when scaled appropriately, are able to predict high fidelity and physically plausible future video conditioned on the past. These models can be used by humanoid robots for synthetic policy evaluation, synthetic policy training, and long-horizon planning. However many world foundation models are closed-source and\or require large amounts of computational resources (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
 
 <div style="text-align: center;">
