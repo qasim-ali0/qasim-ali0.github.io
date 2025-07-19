@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 ---
 
-![Overview](assets\hwm\overview.png)
+![Overview](/assets/hwm/overview.png)
 
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate simulation, planning, and synthetic policy learning.
 
@@ -40,51 +40,51 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample A</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask1.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask1.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/mask1.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask1.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask1.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask1.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample B</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask2.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask2.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/mask2.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask2.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask2.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask2.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample C</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask3.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask3.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/mask3.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask3.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask3.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask3.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample D</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask4.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask4.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/mask4.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask4.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask4.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask4.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample E</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask5.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask5.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
@@ -96,72 +96,72 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample A</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow1.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow1.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow1.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow1.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow1.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow1.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample B</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow2.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow2.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow2.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow2.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow2.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow2.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample C</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow3.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow3.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow3.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow3.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow3.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow3.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample D</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow4.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow4.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow4.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow4.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow4.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow4.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample E</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow5.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow5.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample F</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow6.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow6.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow6.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow6.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow6.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow6.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample G</strong><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow7.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow7.png" width="100%"/>
     <em>Overlay / Comparison</em>
   </div>
 
@@ -169,10 +169,10 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 ### Architecture Diagrams
 #### Masked Video Transformer
-![Masked Architecture](assets\hwm\architecture_diagrams\mask_architecture.png)
+![Masked Architecture](/assets/hwm/architecture_diagrams/mask_architecture.png)
 
 #### Flow-Matching Model
-![Flow Architecture](assets\hwm\architecture_diagrams\flow_architecture.png)
+![Flow Architecture](/assets/hwm/architecture_diagrams/flow_architecture.png)
 
 ---
 
