@@ -43,7 +43,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 
 <video width="320" height="240" controls loop="" muted = "" autoplay="">
-  <source src="https://github.com/qasim-ali0/qasim-ali0.github.io/blob/main/assets/hwm/sampled_videos/generations/flow1.mp4">
+  <source src="https://github.com/qasim-ali0/qasim-ali0.github.io/raw/refs/heads/main/assets/hwm/sampled_videos/generations/flow1.mp4">
 </video>
 
 
