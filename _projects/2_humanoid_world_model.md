@@ -42,7 +42,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample A</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/mask1.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask1.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/mask1.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/mask1.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -52,7 +52,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample B</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/mask2.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask2.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/mask2.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/mask2.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -62,7 +62,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample C</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/mask3.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask3.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/mask3.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/mask3.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -72,7 +72,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample D</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/mask4.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask4.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/mask4.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/mask4.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -82,7 +82,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample E</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/mask5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/mask5.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/mask5.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -98,7 +98,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample A</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow1.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow1.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow1.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow1.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -108,7 +108,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample B</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow2.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow2.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow2.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow2.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -118,7 +118,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample C</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow3.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow3.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow3.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow3.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -128,7 +128,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample D</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow4.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow4.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow4.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow4.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -138,7 +138,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample E</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow5.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -148,7 +148,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample F</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow6.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow6.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow6.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow6.png" width="100%"/>
     <em>Overlay / Comparison</em>
@@ -159,7 +159,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <strong>Sample G</strong><br/>
     <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
+    <video src="assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
     <em>Ground Truth</em><br/>
     <img src="assets/hwm/sampled_images/flow7.png" width="100%"/>
     <em>Overlay / Comparison</em>
