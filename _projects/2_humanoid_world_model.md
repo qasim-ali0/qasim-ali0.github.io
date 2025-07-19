@@ -98,7 +98,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 #### Flow-Matching Model
 <div class="row mt-3">
-  <!-- <div class="col-sm mb-4">
+  <div class="col-sm mb-4">
     <strong>Sample A</strong><br/>
     {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
@@ -106,7 +106,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <em>Ground Truth</em><br/>
     <img src="/assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
-  </div> -->
+  </div>
   <div class="col-sm mb-4">
     <strong>Sample A</strong><br/>
     {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
