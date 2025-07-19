@@ -168,10 +168,10 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 ### Architecture Diagrams
 #### Masked Video Transformer
-![Masked Architecture](assets/hwm/architecture_diagrams/mask_architecture.png)
+![Masked Architecture](assets\hwm\architecture_diagrams\mask_architecture.png)
 
 #### Flow-Matching Model
-![Flow Architecture](assets/hwm/architecture_diagrams/flow_architecture.png)
+![Flow Architecture](assets\hwm\architecture_diagrams\flow_architecture.png)
 
 ---
 
