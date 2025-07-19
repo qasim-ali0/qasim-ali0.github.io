@@ -9,11 +9,18 @@ giscus_comments: true
 related_publications: true
 ---
 
-![Overview](/assets/hwm/overview.png)
-
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate simulation, planning, and synthetic policy learning.
 
 [🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
+
+
+<div style="text-align: center;">
+  <img
+    src="/assets/hwm/overview.png"
+    alt="Overview"
+    style="width: 400px;"
+  />
+</div>
 
 
 ---
@@ -32,7 +39,7 @@ World foundation models are able to predict high fidelity future video condition
 
 ### Sample Predictions
 
-Sample predictions from each model variant are shown below. Masked-HWM achieves higher visual fidelity and faster inference.
+Sample predictions from each model variant are shown below. Masked-HWM achieves higher visual fidelity and faster inference. In the comparison images, the bottom row is generated while top row is ground truth.
 
 #### Masked Video Transformer
 
@@ -80,11 +87,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample E</strong><br/>
-    <video src="/assets/hwm/sampled_videos/generations/mask5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/mask5.mp4" width="50%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="/assets/hwm/sampled_images/mask5.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/mask5.png" width="50%"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
@@ -157,11 +164,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
   <div style="flex: 1; min-width: 300px;">
     <strong>Sample G</strong><br/>
-    <video src="/assets/hwm/sampled_videos/generations/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/generations/flow5.mp4" width="50%" controls></video><br/>
     <em>Predicted</em><br/>
-    <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="100%" controls></video><br/>
+    <video src="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" width="50%" controls></video><br/>
     <em>Ground Truth</em><br/>
-    <img src="/assets/hwm/sampled_images/flow7.png" width="100%"/>
+    <img src="/assets/hwm/sampled_images/flow7.png" width="50%"/>
     <em>Overlay / Comparison</em>
   </div>
 
