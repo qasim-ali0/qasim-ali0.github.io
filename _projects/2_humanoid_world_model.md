@@ -42,20 +42,20 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 <div class="row mt-3">
   <div class="col-sm mb-4">
     <strong>Sample A</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/mask1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/mask1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/mask1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/mask1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask1.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/mask1.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
   <div class="col-sm mb-4">
     <strong>Sample B</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/mask2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/mask2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/mask2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/mask2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask2.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/mask2.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
@@ -63,20 +63,20 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 <div class="row mt-3">
   <div class="col-sm mb-4">
     <strong>Sample C</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/mask3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/mask3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/mask3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/mask3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask3.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/mask3.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
   <div class="col-sm mb-4">
     <strong>Sample D</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/mask4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/mask4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/mask4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/mask4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask4.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/mask4.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
@@ -84,11 +84,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 <div class="row mt-3 justify-content-center">
   <div class="col-sm-6 mb-4">
     <strong>Sample E</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/mask5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/mask5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/mask5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/mask5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/mask5.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/mask5.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
@@ -98,76 +98,76 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 #### Flow-Matching Model
 <div class="row mt-3">
+  <!-- <div class="col-sm mb-4">
+    <strong>Sample A</strong><br/>
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <em>Predicted</em><br/>
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <em>Ground Truth</em><br/>
+    <img src="/assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <em>Overlay / Comparison</em>
+  </div> -->
   <div class="col-sm mb-4">
     <strong>Sample A</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow2.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
+</div>
+
+<div class="row mt-3">
   <div class="col-sm mb-4">
     <strong>Sample B</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow2.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow3.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
-</div>
-
-<div class="row mt-3">
   <div class="col-sm mb-4">
     <strong>Sample C</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow3.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow3.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
-    <em>Overlay / Comparison</em>
-  </div>
-  <div class="col-sm mb-4">
-    <strong>Sample D</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow4.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow4.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow4.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
 
 <div class="row mt-3">
   <div class="col-sm mb-4">
-    <strong>Sample E</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <strong>Sample D</strong><br/>
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow5.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow5.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
   <div class="col-sm mb-4">
-    <strong>Sample F</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow6.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <strong>Sample E</strong><br/>
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow6.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow6.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow6.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow6.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow6.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
 
 <div class="row mt-3 justify-content-center">
   <div class="col-sm-6 mb-4">
-    <strong>Sample G</strong><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/generations/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    <strong>Sample F</strong><br/>
+    {% include video.liquid path="/assets/hwm/sampled_videos/generations/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Predicted</em><br/>
-    {% include video.liquid path="assets/hwm/sampled_videos/ground_truths/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="/assets/hwm/sampled_videos/ground_truths/flow5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     <em>Ground Truth</em><br/>
-    <img src="assets/hwm/sampled_images/flow7.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
+    <img src="/assets/hwm/sampled_images/flow7.png" class="img-fluid rounded z-depth-1" alt="Overlay / Comparison"/>
     <em>Overlay / Comparison</em>
   </div>
 </div>
