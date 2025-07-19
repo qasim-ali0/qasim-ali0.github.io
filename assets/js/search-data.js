@@ -75,6 +75,11 @@ ninja.data = [{
           description: "An open-source world model specifically designed for humanoids.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_humanoid_world_model/";
+            },},{id: "projects-humanoid-world-model",
+          title: 'Humanoid World Model',
+          description: "An open-source world model specifically designed for humanoids.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/humanoid_world_model/";
             },},{
         id: 'social-email',
         title: 'email',
