@@ -11,8 +11,10 @@ related_publications: true
 
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate simulation, planning, and synthetic policy learning.
 
-[🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
+---
 
+### Why HWM?
+World foundation models are able to predict high fidelity future video conditioned on control tokens. These models can be used for synthetic policy evaluation, synthetic policy training, and long-horizon planning.However many world foundation models are closed-source and\or large models requiring 8+ H100 GPUs.
 
 <div style="text-align: center;">
   <img
@@ -21,12 +23,6 @@ We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight,
     style="width: 400px;"
   />
 </div>
-
-
----
-
-### Why HWM?
-World foundation models are able to predict high fidelity future video conditioned on control tokens. These models can be used for synthetic policy evaluation, synthetic policy training, and long-horizon planning.However many world foundation models are closed-source and\or large models requiring 8+ H100 GPUs.
 
 **Key Features**:
 - **Two model families**: While Masked-HWM achieves higher visual fidelity and faster inference, Flow-HWM offers benefits in continuous latent modeling. Our findings favor Masked-HWM for most practical deployments:
@@ -209,6 +205,9 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 | Masked-HWM (Full Sharing) | 14.21 | 28.66 dB | **0.195** | **2.36**     |
 | Flow-HWM (Base)    | 111.59 | 20.42 dB | 1.36        | 1.69         |
 | Flow-HWM (Full Sharing) | **110.73** | 20.43 dB | **0.648** | **1.91**     |
+
+### Code
+[🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
 
 
 ### Citation
