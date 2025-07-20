@@ -46,6 +46,16 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
   <source src="https://github.com/qasim-ali0/qasim-ali0.github.io/raw/refs/heads/main/assets/hwm/sampled_videos/generations/flow1.mp4">
 </video>
 
+<iframe 
+  width="256" 
+  height="256" 
+  src="https://www.youtube.com/embed/AX5aj4C95bo?autoplay=1&mute=1&loop=1&playlist=AX5aj4C95bo" 
+  frameborder="0" 
+  allow="autoplay; encrypted-media" 
+  allowfullscreen>
+</iframe>
+
+
 
 #### Masked Video Transformer
 
