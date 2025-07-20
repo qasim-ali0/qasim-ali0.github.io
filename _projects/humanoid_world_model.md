@@ -129,11 +129,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/GXAgs9ZLsbU?autoplay=1&mute=1&loop=1&playlist=GXAgs9ZLsbU" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/GXAgs9ZLsbU?autoplay=1&mute=1&loop=1&playlist=GXAgs9ZLsbU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/gVHLNHzXG_Y?autoplay=1&mute=1&loop=1&playlist=gVHLNHzXG_Y" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/gVHLNHzXG_Y?autoplay=1&mute=1&loop=1&playlist=gVHLNHzXG_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
     <figure class="mt-2">
@@ -147,11 +147,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/-SexqyFP6tE?autoplay=1&mute=1&loop=1&playlist=-SexqyFP6tE" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/-SexqyFP6tE?autoplay=1&mute=1&loop=1&playlist=-SexqyFP6tE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/vNJebf7CFJA?autoplay=1&mute=1&loop=1&playlist=vNJebf7CFJA" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/vNJebf7CFJA?autoplay=1&mute=1&loop=1&playlist=vNJebf7CFJA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
     <figure class="mt-2">
@@ -168,11 +168,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/TFOzo9c5Y3o?autoplay=1&mute=1&loop=1&playlist=TFOzo9c5Y3o" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/TFOzo9c5Y3o?autoplay=1&mute=1&loop=1&playlist=TFOzo9c5Y3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/VMAqcy8Rlp4?autoplay=1&mute=1&loop=1&playlist=VMAqcy8Rlp4" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/VMAqcy8Rlp4?autoplay=1&mute=1&loop=1&playlist=VMAqcy8Rlp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
     <figure class="mt-2">
@@ -186,11 +186,11 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/jx9Mg_ZduYo?autoplay=1&mute=1&loop=1&playlist=jx9Mg_ZduYo" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/jx9Mg_ZduYo?autoplay=1&mute=1&loop=1&playlist=jx9Mg_ZduYo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/Ca5y4zry6Mc?autoplay=1&mute=1&loop=1&playlist=Ca5y4zry6Mc" class="img-fluid rounded z-depth-1" %}
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/Ca5y4zry6Mc?autoplay=1&mute=1&loop=1&playlist=Ca5y4zry6Mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
     <figure class="mt-2">
