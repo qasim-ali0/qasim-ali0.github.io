@@ -13,8 +13,8 @@ We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight,
 
 ---
 
-### Why world models for humanoids?
-World foundation models, when scaled appropriately, are able to predict high fidelity and physically plausible future video conditioned on the past. These models can be used by humanoid robots for synthetic policy evaluation, synthetic policy training, and long-horizon planning. However many world foundation models are closed-source and\or require large amounts of computational resources (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
+### Motivation
+World foundation models, when scaled appropriately, are able to predict high fidelity and physically plausible future video conditioned on the past. These models can be used by humanoid robots for synthetic policy evaluation, synthetic policy training, and long-horizon planning. However many world foundation models are closed-source and/or require large amounts of computational resources (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
 
 <div style="text-align: center;">
   <img
@@ -37,21 +37,20 @@ World foundation models, when scaled appropriately, are able to predict high fid
 
 Sample predictions from each model variant are shown below. Masked-HWM achieves higher visual fidelity and faster inference. In the comparison images, the bottom row is generated while top row is ground truth.
 
-#### Masked Video Transformer
+#### Masked Video Transformer (Masked-WHM)
 
-<!-- Row 1: Model 2 Samples -->
+<!-- Model 2 Samples – Row 1 -->
 <div class="row mt-5">
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 1 (Model 2) -->
     <h5>Sample 1</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/2Ebc0l-QDLU" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/2Ebc0l-QDLU?autoplay=1&mute=1&loop=1&playlist=2Ebc0l-QDLU" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/3x6_qdnb4z0" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/3x6_qdnb4z0?autoplay=1&mute=1&loop=1&playlist=3x6_qdnb4z0" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
     <div class="mt-2">
@@ -60,16 +59,15 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 2 (Model 2) -->
     <h5>Sample 2</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/E6P8CCi2L5c" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/E6P8CCi2L5c?autoplay=1&mute=1&loop=1&playlist=E6P8CCi2L5c" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/VYdWjiIaJ5E" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/VYdWjiIaJ5E?autoplay=1&mute=1&loop=1&playlist=VYdWjiIaJ5E" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
     <div class="mt-2">
@@ -78,19 +76,18 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
   </div>
 </div>
 
-<!-- Row 2: Model 2 Samples -->
+<!-- Model 2 Samples – Row 2 -->
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 3 (Model 2) -->
     <h5>Sample 3</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/tGyFrFHrM9k" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/tGyFrFHrM9k?autoplay=1&mute=1&loop=1&playlist=tGyFrFHrM9k" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/C6Po51WEk_I" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/C6Po51WEk_I?autoplay=1&mute=1&loop=1&playlist=C6Po51WEk_I" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
     <div class="mt-2">
@@ -99,16 +96,15 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 4 (Model 2) -->
     <h5>Sample 4</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/BtFfGvlVdPQ" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/BtFfGvlVdPQ?autoplay=1&mute=1&loop=1&playlist=BtFfGvlVdPQ" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/dzz90ehz8tg" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/dzz90ehz8tg?autoplay=1&mute=1&loop=1&playlist=dzz90ehz8tg" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
     <div class="mt-2">
@@ -118,10 +114,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 </div>
 
 
-
-
-
-#### Flow-Matching Model
+#### Flow-Matching Model (Flow-HWM)
 
 <!-- Row 1 -->
 <div class="row mt-3">
