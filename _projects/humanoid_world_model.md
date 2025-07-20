@@ -53,9 +53,10 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
         {% include video.liquid path="https://www.youtube.com/embed/3x6_qdnb4z0?autoplay=1&mute=1&loop=1&playlist=3x6_qdnb4z0" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/mask1.png" class="img-fluid rounded z-depth-1" alt="Sample 1 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 1: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
@@ -70,9 +71,10 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
         {% include video.liquid path="https://www.youtube.com/embed/VYdWjiIaJ5E?autoplay=1&mute=1&loop=1&playlist=VYdWjiIaJ5E" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/mask2.png" class="img-fluid rounded z-depth-1" alt="Sample 2 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 2: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 </div>
 
@@ -90,9 +92,10 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
         {% include video.liquid path="https://www.youtube.com/embed/C6Po51WEk_I?autoplay=1&mute=1&loop=1&playlist=C6Po51WEk_I" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/mask4.png" class="img-fluid rounded z-depth-1" alt="Sample 3 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 3: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
@@ -107,94 +110,99 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
         {% include video.liquid path="https://www.youtube.com/embed/dzz90ehz8tg?autoplay=1&mute=1&loop=1&playlist=dzz90ehz8tg" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/mask5.png" class="img-fluid rounded z-depth-1" alt="Sample 4 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 4: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 </div>
+
+
 
 
 #### Flow-Matching Model (Flow-HWM)
 
-<!-- Row 1 -->
-<div class="row mt-3">
+<!-- Flow Matching Samples – Row 1 -->
+<div class="row mt-5">
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 1 -->
     <h5>Sample 1</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/GXAgs9ZLsbU" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/GXAgs9ZLsbU?autoplay=1&mute=1&loop=1&playlist=GXAgs9ZLsbU" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/gVHLNHzXG_Y" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/gVHLNHzXG_Y?autoplay=1&mute=1&loop=1&playlist=gVHLNHzXG_Y" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Sample 1 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 1: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 2 -->
     <h5>Sample 2</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/-SexqyFP6tE" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/-SexqyFP6tE?autoplay=1&mute=1&loop=1&playlist=-SexqyFP6tE" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/vNJebf7CFJA" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/vNJebf7CFJA?autoplay=1&mute=1&loop=1&playlist=vNJebf7CFJA" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/flow3.png" class="img-fluid rounded z-depth-1" alt="Sample 2 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 2: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 </div>
 
-<!-- Row 2 -->
+<!-- Flow Matching Samples – Row 2 -->
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 3 -->
     <h5>Sample 3</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/TFOzo9c5Y3o" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/TFOzo9c5Y3o?autoplay=1&mute=1&loop=1&playlist=TFOzo9c5Y3o" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/VMAqcy8Rlp4" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/VMAqcy8Rlp4?autoplay=1&mute=1&loop=1&playlist=VMAqcy8Rlp4" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/flow4.png" class="img-fluid rounded z-depth-1" alt="Sample 3 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 3: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 
   <div class="col-sm mt-3 mt-md-0">
-    <!-- Sample 4 -->
     <h5>Sample 4</h5>
     <div class="row">
       <div class="col-sm">
         <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/jx9Mg_ZduYo" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/jx9Mg_ZduYo?autoplay=1&mute=1&loop=1&playlist=jx9Mg_ZduYo" class="img-fluid rounded z-depth-1" %}
       </div>
       <div class="col-sm">
         <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/Ca5y4zry6Mc" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/Ca5y4zry6Mc?autoplay=1&mute=1&loop=1&playlist=Ca5y4zry6Mc" class="img-fluid rounded z-depth-1" %}
       </div>
     </div>
-    <div class="mt-2">
+    <figure class="mt-2">
       <img src="/assets/hwm/sampled_images/flow6.png" class="img-fluid rounded z-depth-1" alt="Sample 4 comparison">
-    </div>
+      <figcaption class="text-center mt-1">Sample 4: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
   </div>
 </div>
 
+
 ---
+
 ### Architecture Diagrams
 
 <div style="display: flex; justify-content: center; gap: 2rem; margin: 2rem 0;">
