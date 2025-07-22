@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid World Model
 description: An open-source world model specifically designed for humanoids. 
-img: assets/hwm/icon.jpg
+img: assets/hwm/icon.png
 importance: 1
 category: work
 giscus_comments: true
