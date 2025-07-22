@@ -18,7 +18,9 @@ This project combined robotics, embedded systems, and computer vision to tackle 
   <div class="col-sm-12">
     <h3 class="text-center">Showcase Video</h3>
     <div class="d-flex justify-content-center mt-3">
-      {% include video.liquid path="https://www.youtube.com/embed/YHBNBuHoPM8?autoplay=1&mute=1&loop=1&playlist=YHBNBuHoPM8" class="img-fluid rounded z-depth-1" %}
+      <div class="embed-responsive embed-responsive-16by9" style="max-width: 960px; width: 100%;">
+        {% include video.liquid path="https://www.youtube.com/embed/YHBNBuHoPM8?autoplay=1&mute=1&loop=1&playlist=YHBNBuHoPM8&start=10" class="embed-responsive-item rounded z-depth-1" %}
+      </div>
     </div>
   </div>
 </div>
@@ -30,10 +32,13 @@ This project combined robotics, embedded systems, and computer vision to tackle 
   <div class="col-sm-12">
     <h3 class="text-center">Flights only</h3>
     <div class="d-flex justify-content-center mt-3">
-      {% include video.liquid path="https://www.youtube.com/embed/1ABJ64Dv4B8?autoplay=1&mute=1&loop=1&playlist=1ABJ64Dv4B8" class="img-fluid rounded z-depth-1" %}
+      <div class="embed-responsive embed-responsive-16by9" style="max-width: 960px; width: 100%;">
+        {% include video.liquid path="https://www.youtube.com/embed/1ABJ64Dv4B8?autoplay=1&mute=1&loop=1&playlist=1ABJ64Dv4B8&start=10" class="embed-responsive-item rounded z-depth-1" %}
+      </div>
     </div>
   </div>
 </div>
+
 
 ---
 
@@ -42,5 +47,6 @@ This project combined robotics, embedded systems, and computer vision to tackle 
 - **Mechanical Design**: 3D printed our own drone.
 - **Computer Vision**: Implemented watershed based object detection to identify parking spots.
 
+![Drone Cover](assets/img/drone_cover.jpg)
 
 ---
