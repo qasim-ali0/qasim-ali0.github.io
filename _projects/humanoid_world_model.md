@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Humanoid World Model
-description: An open-source world model specifically designed for humanoids. 
+description: An open-source world model for humanoid robots. 
 img: assets/hwm/icon.png
 importance: 1
 category: work
@@ -11,9 +11,11 @@ related_publications: true
 
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts *8* future video frames conditioned on *9* past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate simulation, planning, and synthetic policy learning.
 
+[🔗 Full Paper](https://arxiv.org/pdf/2506.01182)
+
 ---
 
-### Motivation
+## Motivation
 World foundation models, when scaled appropriately, are able to predict high fidelity and physically plausible future video conditioned on the past. These models can be used by humanoid robots for synthetic policy evaluation, synthetic policy training, and long-horizon planning. However many world foundation models are closed-source and/or require large amounts of computational resources (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
 
 <div style="text-align: center;">
@@ -33,7 +35,7 @@ World foundation models, when scaled appropriately, are able to predict high fid
 - **Data**: Trained on 100+ hours of egocentric humanoid video and control traces from the [1xGPT](https://github.com/1x-technologies/1xgpt) dataset.
 
 
-### Sample Predictions
+## Sample Predictions
 
 Sample predictions from each model variant are shown below. Masked-HWM achieves higher visual fidelity and faster inference. In the comparison images, the bottom row is generated while top row is ground truth.
 
@@ -203,7 +205,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 ---
 
-### Architecture Diagrams
+## Architecture Diagrams
 
 <div style="display: flex; justify-content: center; gap: 2rem; margin: 2rem 0;">
   <figure style="max-width: 300px; text-align: center;">
@@ -227,7 +229,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 
 ---
 
-### Quantitative Performance
+## Quantitative Performance
 
 | Model Variant      | FID ↓ | PSNR ↑ | Params (B) | Samples/sec |
 |--------------------|-------|--------|-------------|--------------|
@@ -237,6 +239,7 @@ Sample predictions from each model variant are shown below. Masked-HWM achieves 
 | Flow-HWM (Full Sharing) | **110.73** | 20.43 dB | **0.648** | **1.91**     |
 
 ### Code
+Please contact our team if you require the code urgently, a special repo can be sent for you. 
 [🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
 
 
