@@ -72,7 +72,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-humanoid-world-model",
           title: 'Humanoid World Model',
-          description: "An open-source world model specifically designed for humanoids.",
+          description: "An open-source world model for humanoid robots.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/humanoid_world_model/";
             },},{
