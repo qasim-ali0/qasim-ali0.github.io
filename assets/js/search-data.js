@@ -65,16 +65,16 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-at-rlc-2025-workshop-on-reward-free-reinforcement-learning-presenting-mr-crl-hope-to-see-you-all-in-edmonton",
           title: 'I will be at RLC 2025 Workshop on Reward-free Reinforcement Learning, presenting MR-CRL!...',
           description: "",
-          section: "News",},{id: "projects-parking-lot-hawk-aerial-drone",
-          title: 'Parking Lot Hawk - Aerial Drone',
-          description: "Autonomous drone for real-time parking lot occupancy monitoring",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-humanoid-world-model",
+          section: "News",},{id: "projects-humanoid-world-model",
           title: 'Humanoid World Model',
           description: "An open-source world model for humanoid robots.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/humanoid_world_model/";
+            },},{id: "projects-parking-lot-hawk-aerial-drone",
+          title: 'Parking Lot Hawk - Aerial Drone',
+          description: "Autonomous drone for real-time parking lot occupancy monitoring",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/parking_lot_hawk/";
             },},{
         id: 'social-email',
         title: 'email',
