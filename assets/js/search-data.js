@@ -53,8 +53,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-finished-second-in-the-1x-world-model-challenge",
-          title: 'I finished second in the 1X World Model Challenge.',
+            },},{id: "news-i-finished-second-in-the-1x-world-model-challenge-cvpr",
+          title: 'I finished second in the 1X World Model Challenge @ CVPR!',
           description: "",
           section: "News",},{id: "news-i-will-be-at-cvpr-2025-workshop-on-3d-llm-vla-presenting-graphpad-hope-to-see-you-all-in-nashville",
           title: 'I will be at CVPR 2025 Workshop on 3D-LLM/VLA, presenting GraphPad. Hope to...',
