@@ -31,7 +31,7 @@ Hi! I'm Qasim Ali, a graduate student at the University of Waterloo. I am advise
 
 I'm interested in building and using [**World Models**](https://www.nvidia.com/en-us/glossary/world-models/) 🌎 to help agents take better actions. While LLMs are great at solving some tasks, I think robust [**System 2 Reasoning**](https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking) 🧠 will require alternative architectures like [*JEPA*](https://openreview.net/pdf?id=BZ5a1r-kVsf) or [*Neural Turing Machines*](https://arxiv.org/abs/1410.5401). During my master's degree, I worked at the intersection of **generative models**, **reinforcement learning**, and **representation learning** on ideas related to this vision.
 
-I did a 16 month internship at [Magna Electronic's](https://www.magna.com/company/company-information/magna-groups/magna-electronics) **ADAS division** where I worked with various **embedded software** platforms to help get self-driving features working real on vehicles. 
+I did a 16 month internship at [Magna Electronic's](https://www.magna.com/company/company-information/magna-groups/magna-electronics) **ADAS division** where I worked with various **embedded** software platforms to help get self-driving features working on vehicles. 
 
 I come from an embedded software and robotics background, as I did my undergrad in Mechatronics Engineering. During that time I built a control algorithm for getting vehicles to navigate through V2I-connected intersections for the EcoCar Contest, and built a [*Drone*](https://drive.google.com/file/d/125z5QsjDenNSf7ONLg8X_LwHTOxepNVv/view).
 
