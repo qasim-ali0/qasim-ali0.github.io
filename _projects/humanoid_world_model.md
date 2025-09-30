@@ -13,7 +13,7 @@ related_publications: true
 <div class="row mt-5">
   <!-- LEFT COLUMN: Mask-HWM -->
   <div class="col-md-6">
-    <h4 class="text-center mb-3">Mask-HWM (Left Column)</h4>
+    <h4 class="text-center mb-3">Masked Transformer (Left)</h4>
 
     <!-- Mask Sample 1 -->
     <div class="mb-4 p-3 border rounded">
@@ -78,7 +78,7 @@ related_publications: true
 
   <!-- RIGHT COLUMN: Flow-HWM -->
   <div class="col-md-6">
-    <h4 class="text-center mb-3">Flow-HWM (Right Column)</h4>
+    <h4 class="text-center mb-3">Flow Matching (Right)</h4>
 
     <!-- Flow Sample 1 -->
     <div class="mb-4 p-3 border rounded">
@@ -86,11 +86,11 @@ related_publications: true
       <div class="row">
         <div class="col-sm">
           <h6>Generated</h6>
-          <img src="/assets/video/flow1_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Generated">
+          <img src="/assets/video/flow2_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Generated">
         </div>
         <div class="col-sm">
           <h6>Ground Truth</h6>
-          <img src="/assets/video/flow1_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Ground Truth">
+          <img src="/assets/video/flow2_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Ground Truth">
         </div>
       </div>
     </div>
@@ -101,11 +101,11 @@ related_publications: true
       <div class="row">
         <div class="col-sm">
           <h6>Generated</h6>
-          <img src="/assets/video/flow2_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Generated">
+          <img src="/assets/video/flow4_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Generated">
         </div>
         <div class="col-sm">
           <h6>Ground Truth</h6>
-          <img src="/assets/video/flow2_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Ground Truth">
+          <img src="/assets/video/flow4_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Ground Truth">
         </div>
       </div>
     </div>
@@ -116,11 +116,11 @@ related_publications: true
       <div class="row">
         <div class="col-sm">
           <h6>Generated</h6>
-          <img src="/assets/video/flow3_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Generated">
+          <img src="/assets/video/flow6_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Generated">
         </div>
         <div class="col-sm">
           <h6>Ground Truth</h6>
-          <img src="/assets/video/flow3_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Ground Truth">
+          <img src="/assets/video/flow6_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Ground Truth">
         </div>
       </div>
     </div>
@@ -131,11 +131,11 @@ related_publications: true
       <div class="row">
         <div class="col-sm">
           <h6>Generated</h6>
-          <img src="/assets/video/flow4_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
+          <img src="/assets/video/flow3_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
         </div>
         <div class="col-sm">
           <h6>Ground Truth</h6>
-          <img src="/assets/video/flow4_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Ground Truth">
+          <img src="/assets/video/flow3_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Ground Truth">
         </div>
       </div>
     </div>
