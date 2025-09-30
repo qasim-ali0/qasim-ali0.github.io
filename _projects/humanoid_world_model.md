@@ -88,6 +88,10 @@ related_publications: true
           <h6>Generated</h6>
           <img src="/assets/video/flow1_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Generated">
         </div>
+        <div class="col-sm">
+          <h6>Ground Truth</h6>
+          <img src="/assets/video/flow1_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Ground Truth">
+        </div>
       </div>
     </div>
 
@@ -98,6 +102,10 @@ related_publications: true
         <div class="col-sm">
           <h6>Generated</h6>
           <img src="/assets/video/flow2_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Generated">
+        </div>
+        <div class="col-sm">
+          <h6>Ground Truth</h6>
+          <img src="/assets/video/flow2_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Ground Truth">
         </div>
       </div>
     </div>
@@ -110,6 +118,10 @@ related_publications: true
           <h6>Generated</h6>
           <img src="/assets/video/flow3_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Generated">
         </div>
+        <div class="col-sm">
+          <h6>Ground Truth</h6>
+          <img src="/assets/video/flow3_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Ground Truth">
+        </div>
       </div>
     </div>
 
@@ -121,20 +133,20 @@ related_publications: true
           <h6>Generated</h6>
           <img src="/assets/video/flow4_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
         </div>
+        <div class="col-sm">
+          <h6>Ground Truth</h6>
+          <img src="/assets/video/flow4_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Ground Truth">
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+---
 
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities).
 
 [🔗 Full Paper](https://arxiv.org/pdf/2506.01182)
-
----
-
-## Motivation
-World foundation models can predict high fidelity and physically plausible future video conditioned on the past. Such world models can substantially help the development of humanoid robots. In particular, world models can help evaluate humanoid policies, generate synthetic training data, learn general-purpose representations, and help conduct long-horizon planning. However, many world foundation models are closed-source and/or require large amounts of computational resources to run (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
 
 <div style="text-align: center;">
   <img
@@ -143,6 +155,11 @@ World foundation models can predict high fidelity and physically plausible futur
     style="width: 400px;"
   />
 </div>
+
+---
+
+## Motivation
+World foundation models can predict high fidelity and physically plausible future video conditioned on the past. Such world models can substantially help the development of humanoid robots. In particular, world models can help evaluate humanoid policies, generate synthetic training data, learn general-purpose representations, and help conduct long-horizon planning. However, many world foundation models are closed-source and/or require large amounts of computational resources to run (e.g. [8+ H100s](https://github.com/nvidia-cosmos/cosmos-predict2/blob/9944a1aebd172a1750c2f9669eca81eb71e6277c/documentations/performance.md)).
 
 **Key Features**:
 - **Two model families**: While Masked-HWM achieves higher visual fidelity and faster inference, Flow-HWM offers benefits in continuous latent modeling. Our findings favor Masked-HWM for most practical deployments:
