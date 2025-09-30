@@ -144,7 +144,7 @@ related_publications: true
 
 ---
 
-We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities).
+We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). The model predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities).
 
 [🔗 Full Paper](https://arxiv.org/pdf/2506.01182)
 
@@ -164,9 +164,9 @@ World foundation models can predict high fidelity and physically plausible futur
 **Key Features**:
 - **Two model families**: While Masked-HWM achieves higher visual fidelity and faster inference, Flow-HWM offers benefits in continuous latent modeling. Our findings favor Masked-HWM for most practical deployments:
   - *Masked-HWM*: non-autoregressive masked video transformer using VQ-VAE latents.
-  - *Flow-HWM*: continuous latent space model using flow-matching.
+  - *Flow-HWM*: continuous VAE latent space model using flow-matching.
 - **Architecture Variants**: Various attention styles (joint vs. split attention) and weight-sharing strategies were explored, providing up to 53% parameter reduction with minimal performance degradation.
-- **Efficiency**: Trained and deployed using only 1–2 GPUs.
+- **Efficiency**: Trained 3 Nvida A6000 GPUs.
 - **Data**: Trained on 100+ hours of egocentric humanoid video and control traces from the [1xGPT](https://github.com/1x-technologies/1xgpt) dataset.
 
 
