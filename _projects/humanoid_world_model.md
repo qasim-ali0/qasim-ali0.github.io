@@ -131,11 +131,11 @@ related_publications: true
       <div class="row">
         <div class="col-sm">
           <h6>Generated</h6>
-          <img src="/assets/video/flow3_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
+          <img src="/assets/video/flow7_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
         </div>
         <div class="col-sm">
           <h6>Ground Truth</h6>
-          <img src="/assets/video/flow3_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Ground Truth">
+          <img src="/assets/video/flow7_gt.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Ground Truth">
         </div>
       </div>
     </div>
