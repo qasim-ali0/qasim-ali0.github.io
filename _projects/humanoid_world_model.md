@@ -13,7 +13,7 @@ related_publications: true
 <div class="row mt-5">
   <!-- LEFT COLUMN: Mask-HWM -->
   <div class="col-md-6">
-    <h4 class="text-center mb-3">Masked Transformer (Left)</h4>
+    <h4 class="text-center mb-3">Masked Transformer</h4>
 
     <!-- Mask Sample 1 -->
     <div class="mb-4 p-3 border rounded">
@@ -78,7 +78,7 @@ related_publications: true
 
   <!-- RIGHT COLUMN: Flow-HWM -->
   <div class="col-md-6">
-    <h4 class="text-center mb-3">Flow Matching (Right)</h4>
+    <h4 class="text-center mb-3">Flow Matching</h4>
 
     <!-- Flow Sample 1 -->
     <div class="mb-4 p-3 border rounded">
