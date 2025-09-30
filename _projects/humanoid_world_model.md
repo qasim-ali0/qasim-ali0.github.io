@@ -9,6 +9,197 @@ giscus_comments: true
 related_publications: true
 ---
 
+<!-- Mask-HWM -->
+<div class="row mt-5">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Mask-HWM Sample 1</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/mask1_gen.gif" class="img-fluid rounded z-depth-1" alt="Mask 1 Generated">
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <img src="/assets/video/mask1_gt.gif" class="img-fluid rounded z-depth-1" alt="Mask 1 Ground Truth">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Mask-HWM Sample 2</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/mask2_gen.gif" class="img-fluid rounded z-depth-1" alt="Mask 2 Generated">
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <img src="/assets/video/mask2_gt.gif" class="img-fluid rounded z-depth-1" alt="Mask 2 Ground Truth">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Mask-HWM Sample 3</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/mask3_gen.gif" class="img-fluid rounded z-depth-1" alt="Mask 3 Generated">
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <img src="/assets/video/mask3_gt.gif" class="img-fluid rounded z-depth-1" alt="Mask 3 Ground Truth">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Mask-HWM Sample 4</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/mask4_gen.gif" class="img-fluid rounded z-depth-1" alt="Mask 4 Generated">
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <img src="/assets/video/mask4_gt.gif" class="img-fluid rounded z-depth-1" alt="Mask 4 Ground Truth">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Flow-HWM -->
+<div class="row mt-5">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 1</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/flow1_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 1 Generated">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 2</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/flow2_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 2 Generated">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 3</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/flow3_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 3 Generated">
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 4</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <img src="/assets/video/flow4_gen.gif" class="img-fluid rounded z-depth-1" alt="Flow 4 Generated">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+#### Flow-Matching Model (Flow-HWM)
+
+<!-- Flow Matching Samples – Row 1 -->
+<div class="row mt-5">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 1</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/GXAgs9ZLsbU?autoplay=1&mute=1&loop=1&playlist=GXAgs9ZLsbU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/gVHLNHzXG_Y?autoplay=1&mute=1&loop=1&playlist=gVHLNHzXG_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <figure class="mt-2">
+      <img src="/assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Sample 1 comparison">
+      <figcaption class="text-center mt-1">Sample 1: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Sample 2</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Flow-HWM Generated</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/-SexqyFP6tE?autoplay=1&mute=1&loop=1&playlist=-SexqyFP6tE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/vNJebf7CFJA?autoplay=1&mute=1&loop=1&playlist=vNJebf7CFJA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <figure class="mt-2">
+      <img src="/assets/hwm/sampled_images/flow3.png" class="img-fluid rounded z-depth-1" alt="Sample 2 comparison">
+      <figcaption class="text-center mt-1">Sample 2: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
+  </div>
+</div>
+
+<!-- Flow Matching Samples – Row 2 -->
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 3</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/TFOzo9c5Y3o?autoplay=1&mute=1&loop=1&playlist=TFOzo9c5Y3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/VMAqcy8Rlp4?autoplay=1&mute=1&loop=1&playlist=VMAqcy8Rlp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <figure class="mt-2">
+      <img src="/assets/hwm/sampled_images/flow4.png" class="img-fluid rounded z-depth-1" alt="Sample 3 comparison">
+      <figcaption class="text-center mt-1">Sample 3: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-sm mt-3 mt-md-0">
+    <h5>Flow-HWM Sample 4</h5>
+    <div class="row">
+      <div class="col-sm">
+        <h6>Generated</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/jx9Mg_ZduYo?autoplay=1&mute=1&loop=1&playlist=jx9Mg_ZduYo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm">
+        <h6>Ground Truth</h6>
+        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/Ca5y4zry6Mc?autoplay=1&mute=1&loop=1&playlist=Ca5y4zry6Mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+    <figure class="mt-2">
+      <img src="/assets/hwm/sampled_images/flow6.png" class="img-fluid rounded z-depth-1" alt="Sample 4 comparison">
+      <figcaption class="text-center mt-1">Sample 4: Top = Generated, Bottom = Ground Truth</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
 We present **Humanoid World Models (HWM)** 🤖🧠 — a family of lightweight, open-source video prediction models for humanoid robots — showcased at the [ICML 2025 Workshop on Physically Plausible World Models](https://openreview.net/forum?id=ENAycZapM2&noteId=ENAycZapM2). It predicts 8 future video frames conditioned on 9 past video frames and humanoid control tokens (e.g., joint angles, velocities). Such world models can facilitate synthetic policy evaluation, synthetic policy learning, and long-horizon planning.
 
 [🔗 Full Paper](https://arxiv.org/pdf/2506.01182)
@@ -34,173 +225,6 @@ World foundation models, when scaled appropriately, are able to predict high fid
 - **Efficiency**: Trained and deployed using only 1–2 GPUs.
 - **Data**: Trained on 100+ hours of egocentric humanoid video and control traces from the [1xGPT](https://github.com/1x-technologies/1xgpt) dataset.
 
-
-## Sample Predictions
-
-Sample predictions from each model variant are shown below. Masked-HWM achieves higher visual fidelity and faster inference. In the comparison images, the bottom row is generated while top row is ground truth.
-
-#### Masked Video Transformer (Masked-WHM)
-
-<!-- Model 2 Samples – Row 1 -->
-<div class="row mt-5">
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 1</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/2Ebc0l-QDLU?autoplay=1&mute=1&loop=1&playlist=2Ebc0l-QDLU" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/3x6_qdnb4z0?autoplay=1&mute=1&loop=1&playlist=3x6_qdnb4z0" class="img-fluid rounded z-depth-1" %}
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/mask1.png" class="img-fluid rounded z-depth-1" alt="Sample 1 comparison">
-      <figcaption class="text-center mt-1">Sample 1: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 2</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/E6P8CCi2L5c?autoplay=1&mute=1&loop=1&playlist=E6P8CCi2L5c" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/VYdWjiIaJ5E?autoplay=1&mute=1&loop=1&playlist=VYdWjiIaJ5E" class="img-fluid rounded z-depth-1" %}
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/mask2.png" class="img-fluid rounded z-depth-1" alt="Sample 2 comparison">
-      <figcaption class="text-center mt-1">Sample 2: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-</div>
-
-<!-- Model 2 Samples – Row 2 -->
-<div class="row mt-3">
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 3</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/tGyFrFHrM9k?autoplay=1&mute=1&loop=1&playlist=tGyFrFHrM9k" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/C6Po51WEk_I?autoplay=1&mute=1&loop=1&playlist=C6Po51WEk_I" class="img-fluid rounded z-depth-1" %}
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/mask4.png" class="img-fluid rounded z-depth-1" alt="Sample 3 comparison">
-      <figcaption class="text-center mt-1">Sample 3: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 4</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/BtFfGvlVdPQ?autoplay=1&mute=1&loop=1&playlist=BtFfGvlVdPQ" class="img-fluid rounded z-depth-1" %}
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        {% include video.liquid path="https://www.youtube.com/embed/dzz90ehz8tg?autoplay=1&mute=1&loop=1&playlist=dzz90ehz8tg" class="img-fluid rounded z-depth-1" %}
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/mask5.png" class="img-fluid rounded z-depth-1" alt="Sample 4 comparison">
-      <figcaption class="text-center mt-1">Sample 4: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-</div>
-
-
-
-
-#### Flow-Matching Model (Flow-HWM)
-
-<!-- Flow Matching Samples – Row 1 -->
-<div class="row mt-5">
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 1</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/GXAgs9ZLsbU?autoplay=1&mute=1&loop=1&playlist=GXAgs9ZLsbU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/gVHLNHzXG_Y?autoplay=1&mute=1&loop=1&playlist=gVHLNHzXG_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/flow1.png" class="img-fluid rounded z-depth-1" alt="Sample 1 comparison">
-      <figcaption class="text-center mt-1">Sample 1: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 2</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/-SexqyFP6tE?autoplay=1&mute=1&loop=1&playlist=-SexqyFP6tE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/vNJebf7CFJA?autoplay=1&mute=1&loop=1&playlist=vNJebf7CFJA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/flow3.png" class="img-fluid rounded z-depth-1" alt="Sample 2 comparison">
-      <figcaption class="text-center mt-1">Sample 2: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-</div>
-
-<!-- Flow Matching Samples – Row 2 -->
-<div class="row mt-3">
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 3</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/TFOzo9c5Y3o?autoplay=1&mute=1&loop=1&playlist=TFOzo9c5Y3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/VMAqcy8Rlp4?autoplay=1&mute=1&loop=1&playlist=VMAqcy8Rlp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/flow4.png" class="img-fluid rounded z-depth-1" alt="Sample 3 comparison">
-      <figcaption class="text-center mt-1">Sample 3: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-
-  <div class="col-sm mt-3 mt-md-0">
-    <h5>Sample 4</h5>
-    <div class="row">
-      <div class="col-sm">
-        <h6>Generated</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/jx9Mg_ZduYo?autoplay=1&mute=1&loop=1&playlist=jx9Mg_ZduYo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-      <div class="col-sm">
-        <h6>Ground Truth</h6>
-        <iframe class="img-fluid rounded z-depth-1" src="https://www.youtube.com/embed/Ca5y4zry6Mc?autoplay=1&mute=1&loop=1&playlist=Ca5y4zry6Mc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-    <figure class="mt-2">
-      <img src="/assets/hwm/sampled_images/flow6.png" class="img-fluid rounded z-depth-1" alt="Sample 4 comparison">
-      <figcaption class="text-center mt-1">Sample 4: Top = Generated, Bottom = Ground Truth</figcaption>
-    </figure>
-  </div>
-</div>
 
 
 ---
