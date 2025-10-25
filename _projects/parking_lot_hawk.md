@@ -2,7 +2,7 @@
 layout: page
 title: Parking Lot Hawk - Aerial Drone
 description: Autonomous drone for real-time parking lot occupancy monitoring
-img: assets/img/drone_cover.jpg
+img: assets/drone/drone_cover.jpg
 importance: 1
 category: work
 giscus_comments: true
