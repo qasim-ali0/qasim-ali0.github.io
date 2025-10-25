@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Autonomous drone for real-time parking lot occupancy monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/parking_lot_hawk/";
+            },},{id: "projects-world-model-contrastive-reinforcement-learning",
+          title: 'World Model Contrastive Reinforcement Learning',
+          description: "Using representations from a world model to help reinforcement learning agents learn from imperfect training demonstrations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/world_model_crl/";
             },},{
         id: 'social-email',
         title: 'email',
