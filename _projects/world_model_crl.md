@@ -174,7 +174,7 @@ The world model's training objective focuses purely on **environment dynamics**,
 
 #### Algorithm: WM-CRL Networks and Training Loop
 
-### Networks
+##### Networks
 
 **Encoders:**
 - State encoder: `z_s(s)`
@@ -186,7 +186,7 @@ The world model's training objective focuses purely on **environment dynamics**,
 - Critic state-action: `φ(s,a,z_s(s),z_sa(s,a))`
 - Policy: `π(s,s_g,z_s(s),z_s(s_g))`
 
-### Training Loop
+##### Training Loop
 ```
 for t in 1:T
     Sample trajectory {(s_t, a_t, s_{t+1})}_{t=1}^H
