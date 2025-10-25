@@ -2,7 +2,7 @@
 layout: page
 title: World Model Contrastive Reinforcement Learning
 description: Using representations from a world model to help reinforcement learning agents learn from imperfect training demonstrations. 
-img: assets/hwm/icon.png
+img: assets/wmcrl/puzzle-3x3.png
 importance: 1
 category: work
 giscus_comments: true
@@ -10,7 +10,7 @@ related_publications: true
 ---
 <!-- WM-CRL Results -->
 <section id="wmcrl-results" class="container my-5">
-  <h2 class="text-center mb-4">WM-CRL: Visual Results</h2>
+  <!-- <h2 class="text-center mb-4">Visual Results</h2> -->
 
   <!-- Row 1 -->
   <div class="row g-4">
@@ -87,11 +87,14 @@ related_publications: true
 ---
 
 ## TLDR
-World Model Contrastive Reinforcement Learning (WM-CRL) is a novel approach to enhance the ability of offline RL agents to learn from imperfect and poor-quality training data. 
+World Model Contrastive Reinforcement Learning (WM-CRL) is a novel approach to improve the ability of offline RL agents to learn from imperfect and poor-quality training data. 
 
-The method essentially combines representations from a world model with an offline RL policy (CRL). While world models can learn from all data (high and low quality), goal-reaching offline agents need long-horizon, clean, and high-quality demonstrations. By using representations from the world model, we help the offline RL policy learn from imperfect data.
+The method essentially combines representations from a world model with an offline RL policy (CRL). 
+- **World Models** can learn from all data, including both high and low quality demonstrations.
+- Goal-reaching offline **policies** need *high-quality* (long-horizon and clean) demonstrations. 
+By using **representations** from the world model, we help the offline RL policy learn from imperfect data.
 
-We evaluated the method on OGBench. We find the method helps CRL on 5/6 imperfect data settings (short trajectory fragments or exploratory behavior). 
+We evaluated the method on several tasks from OGBench. We find that WM-CRL helps the improves final policy success rate on 5/6 imperfect data settings (short trajectory fragments or exploratory behavior). 
 
 Potential applications of this method include robotics and decision-making domains where high-quality data is scarce. 
 
@@ -119,7 +122,7 @@ This creates a barrier to training effective autonomous agents for real-world ap
 
 ## Proposed Solution
 
-**WM-CRL Architecture:** The project introduces World Model Contrastive Reinforcement Learning, which augments **Contrastive Reinforcement Learning (CRL)** with representations from a **predictive world model**.
+**WM-CRL Architecture:** The project introduces World Model Contrastive Reinforcement Learning, which augments *Contrastive Reinforcement Learning (CRL)* with representations from a *predictive world model*.
 
 ### Key Components
 
@@ -140,6 +143,36 @@ The world model's training objective focuses purely on **environment dynamics**,
 - Reach goal states faster and more reliably
 
 --- 
+
+<!-- WM-CRL Stills -->
+<section id="wmcrl-stills" class="container my-5">
+  <div class="row g-3">
+    <div class="col-md-4">
+      <img
+        src="/assets/wmcrl/antmaze.png"
+        class="img-fluid rounded border"
+        alt=""
+        loading="lazy"
+      />
+    </div>
+    <div class="col-md-4">
+      <img
+        src="/assets/wmcrl/humanoidmaze.png"
+        class="img-fluid rounded border"
+        alt=""
+        loading="lazy"
+      />
+    </div>
+    <div class="col-md-4">
+      <img
+        src="/assets/wmcrl/puzzle-3x3.png"
+        class="img-fluid rounded border"
+        alt=""
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
 
 ## Methodology
 
