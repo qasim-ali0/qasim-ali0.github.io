@@ -16,18 +16,6 @@ related_publications: true
   <div class="row g-4">
     <div class="col-md-6">
       <div class="p-3 border rounded shadow-sm h-100">
-        <h4 class="text-center mb-3">AntMaze</h4>
-        <img
-          src="/assets/video/wmcrl/mr-crl-sample-antmaze.gif"
-          class="img-fluid rounded"
-          alt="WM-CRL AntMaze result gif"
-          loading="lazy"
-        />
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="p-3 border rounded shadow-sm h-100">
         <h4 class="text-center mb-3">Cube</h4>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-cube.gif"
@@ -37,10 +25,7 @@ related_publications: true
         />
       </div>
     </div>
-  </div>
 
-  <!-- Row 2 -->
-  <div class="row g-4 mt-1">
     <div class="col-md-6">
       <div class="p-3 border rounded shadow-sm h-100">
         <h4 class="text-center mb-3">HumanoidMaze</h4>
@@ -52,7 +37,10 @@ related_publications: true
         />
       </div>
     </div>
+  </div>
 
+  <!-- Row 2 -->
+  <div class="row g-4 mt-1">
     <div class="col-md-6">
       <div class="p-3 border rounded shadow-sm h-100">
         <h4 class="text-center mb-3">PointMaze</h4>
@@ -64,18 +52,30 @@ related_publications: true
         />
       </div>
     </div>
+
+    <div class="col-md-6">
+      <div class="p-3 border rounded shadow-sm h-100">
+        <h4 class="text-center mb-3">Puzzle</h4>
+        <!-- If the exact env name is puzzle-3x3-noisy, change the heading above accordingly -->
+        <img
+          src="/assets/video/wmcrl/mr-crl-sample-puzzle.gif"
+          class="img-fluid rounded"
+          alt="WM-CRL Puzzle environment result gif"
+          loading="lazy"
+        />
+      </div>
+    </div>
   </div>
 
   <!-- Centered final -->
   <div class="row g-4 mt-1">
     <div class="col-lg-8 offset-lg-2">
       <div class="p-3 border rounded shadow-sm">
-        <h4 class="text-center mb-3">Puzzle</h4>
-        <!-- If the exact env name is puzzle-3x3-noisy, change the heading above accordingly -->
+        <h4 class="text-center mb-3">AntMaze</h4>
         <img
-          src="/assets/video/wmcrl/mr-crl-sample-puzzle.gif"
+          src="/assets/video/wmcrl/mr-crl-sample-antmaze.gif"
           class="img-fluid rounded d-block mx-auto"
-          alt="WM-CRL Puzzle environment result gif"
+          alt="WM-CRL AntMaze result gif"
           loading="lazy"
         />
       </div>
