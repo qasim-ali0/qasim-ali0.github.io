@@ -150,7 +150,7 @@ This creates a barrier to training effective autonomous agents for real-world ap
 
 --- 
 
-## Proposed Solution
+## Methodology
 
 **WM-CRL Architecture:** The project introduces World Model Contrastive Reinforcement Learning, which augments *Contrastive Reinforcement Learning (CRL)* with representations from a *predictive world model*.
 
@@ -162,7 +162,7 @@ This creates a barrier to training effective autonomous agents for real-world ap
 - The **actor** selects actions that move closer to goal states
 - **Contrastive representation learning** enables learning from diverse, suboptimal data
 
-**World Model Integration:** A world model is trained to predict future state embeddings from past state-action pairs, thereby learning the **underlying dynamics** of how environments evolve. These learned representations are integrated into CRL's actor-critic framework.
+**World Model Integration:** A world model is trained to predict future state embeddings from past state-action pairs, thereby learning the underlying dynamics of how environments evolve. These learned representations are integrated into CRL's actor-critic framework.
 
 #### Why This Works
 
@@ -172,7 +172,7 @@ The world model's training objective focuses purely on **environment dynamics**,
 - Select actions more strategically
 - Reach goal states faster and more reliably
 
-#### Algorithm: WM-CRL Networks and Training Loop
+#### Detailed Algorithm
 
 ##### Networks
 
