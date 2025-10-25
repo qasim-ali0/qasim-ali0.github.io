@@ -86,7 +86,7 @@ related_publications: true
 
 ---
 
-## TLDR
+# TLDR
 World Model Contrastive Reinforcement Learning (WM-CRL) is a novel approach to improve the ability of offline RL agents to learn from imperfect and poor-quality training data. 
 
 The method essentially combines representations from a world model with an offline RL policy (CRL). 
@@ -105,7 +105,7 @@ Potential applications of this method include robotics and decision-making domai
 
 ## Problem Statement
 
-**Research Question:** Can autonomous agents learn useful representations from abundant but imperfect data, and transfer these representations to solve complex decision-making tasks?
+> *How can autonomous agents learn meaningful decision-making policies from abundant but imperfect data?*
 
 Many AI domains face a critical **data scarcity challenge**. Unlike natural language processing or computer vision—which benefit from massive internet datasets—robotics and decision-making domains often lack large, diverse, high-quality datasets. Collecting expert demonstrations for long-horizon tasks (requiring multiple stages of planning and acting) is **expensive and time-consuming**.
 
@@ -117,32 +117,6 @@ Traditional supervised learning approaches demand numerous high-quality demonstr
 - **Limited** in quantity and diversity
 
 This creates a barrier to training effective autonomous agents for real-world applications in robotics, scientific experimentation, and complex task automation.
-
---- 
-
-## Proposed Solution
-
-**WM-CRL Architecture:** The project introduces World Model Contrastive Reinforcement Learning, which augments *Contrastive Reinforcement Learning (CRL)* with representations from a *predictive world model*.
-
-### Key Components
-
-**Contrastive Reinforcement Learning (CRL)** serves as the foundation—an actor-critic framework where:
-
-- The **critic** evaluates whether state-action pairs lead toward goals
-- The **actor** selects actions that move closer to goal states
-- **Contrastive representation learning** enables learning from diverse, suboptimal data
-
-**World Model Integration:** A world model is trained to predict future state embeddings from past state-action pairs, thereby learning the **underlying dynamics** of how environments evolve. These learned representations are integrated into CRL's actor-critic framework.
-
-### Why This Works
-
-The world model's training objective focuses purely on **environment dynamics**, meaning it can learn from any demonstrations—expert or otherwise. By providing CRL with structured understanding of how actions influence future states, WM-CRL helps agents:
-
-- Better comprehend environment mechanics
-- Select actions more strategically
-- Reach goal states faster and more reliably
-
---- 
 
 <!-- WM-CRL Stills -->
 <section id="wmcrl-stills" class="container my-5">
@@ -174,24 +148,68 @@ The world model's training objective focuses purely on **environment dynamics**,
   </div>
 </section>
 
-## Methodology
+--- 
+
+## Proposed Solution
+
+**WM-CRL Architecture:** The project introduces World Model Contrastive Reinforcement Learning, which augments *Contrastive Reinforcement Learning (CRL)* with representations from a *predictive world model*.
+
+#### Key Components
+
+**Contrastive Reinforcement Learning (CRL)** serves as the foundation—an actor-critic framework where:
+
+- The **critic** evaluates whether state-action pairs lead toward goals
+- The **actor** selects actions that move closer to goal states
+- **Contrastive representation learning** enables learning from diverse, suboptimal data
+
+**World Model Integration:** A world model is trained to predict future state embeddings from past state-action pairs, thereby learning the **underlying dynamics** of how environments evolve. These learned representations are integrated into CRL's actor-critic framework.
+
+#### Why This Works
+
+The world model's training objective focuses purely on **environment dynamics**, meaning it can learn from any demonstrations—expert or otherwise. By providing CRL with structured understanding of how actions influence future states, WM-CRL helps agents:
+
+- Better comprehend environment mechanics
+- Select actions more strategically
+- Reach goal states faster and more reliably
+
+#### Algorithm: WM-CRL Networks and Training Loop
+
+### Networks
+
+**Encoders:**
+- State encoder: `z_s(s)`
+- State-action encoder: `z_sa(s,a)`
+- Projector: `m(·)`
+
+**Contrastive RL actor-critic:**
+- Critic goal: `ψ(g)`
+- Critic state-action: `φ(s,a,z_s(s),z_sa(s,a))`
+- Policy: `π(s,s_g,z_s(s),z_s(s_g))`
+
+### Training Loop
+```
+for t in 1:T
+    Sample trajectory {(s_t, a_t, s_{t+1})}_{t=1}^H
+        and goal s_g from training set.
+    Update z_s, z_sa, m with world model
+        loss (Eq. [encoder loss])
+    if t > w then
+        Update φ, ψ with contrastive
+            loss (Eq. [contrastive loss])
+        Update π with actor
+            loss (Eq. [actor loss]).
+    if t % p == 0 then
+        Update target networks:
+            z_s', z_sa', m' ← z_s, z_sa, m
+```
+
+## Results
 
 **Experimental Setup:** The research evaluates WM-CRL against standard CRL baselines using the **OGBench benchmark**, which includes:
 
-- **Locomotion tasks** (maze navigation)
-- **Manipulation tasks** (robotic pick-and-place operations)
-- **Multiple dataset qualities** (expert, noisy, exploratory, fragmented trajectories)
-
-**Novel Theoretical Contribution:** The project recasts world model training through the lens of **self-distillation representation learning** (methods like BYOL and DINO), interpreting world model self-consistency training as a form of self-distillation. This perspective introduces design innovations including:
-
-- Cross-entropy loss over latent dynamics
-- Exponential moving average (EMA) target networks
-
-**Extensive Ablation Studies:** Systematic experiments test different mechanisms for incorporating world model embeddings (critic vs. actor vs. goal encoder) and alternative loss functions, revealing how **placement and stability** of predictive embeddings affect performance.
-
---- 
-
-## Results
+- **Locomotion** tasks (maze navigation)
+- **Manipulation** tasks (robotic pick-and-place operations)
+- **Multiple datasets**, varying in **quality** (expert, noisy, exploratory, fragmented trajectories)
 
 **Key Finding:** WM-CRL substantially improves performance over CRL when training data is imperfect, achieving improvements on **5 out of 6 imperfect-data tasks**.
 
@@ -233,7 +251,7 @@ This research demonstrates that **predictive world model representations can mea
 - One of the first systematic evaluations across datasets of varying quality
 - Novel theoretical connection between world models and self-distillation methods
 
----
 
+---
 # Citations 
 Park, S., Frans, K., Eysenbach, B., & Levine, S. (2025). **OGBench: Benchmarking Offline Goal-Conditioned RL**. In _International Conference on Learning Representations (ICLR)_.
