@@ -77,7 +77,7 @@ ninja.data = [{
               window.location.href = "/projects/parking_lot_hawk/";
             },},{id: "projects-world-model-contrastive-reinforcement-learning",
           title: 'World Model Contrastive Reinforcement Learning',
-          description: "Using representations from a world model to help reinforcement learning agents learn from imperfect training demonstrations.",
+          description: "Using representations from a world model 🌎 to help reinforcement learning agents 🤖 learn from imperfect training demonstrations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/world_model_crl/";
             },},{
