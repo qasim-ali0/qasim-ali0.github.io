@@ -99,7 +99,7 @@ The intuition is that WM and CRL require different kinds of data:
 - **Policies** like CRL (goal-reaching, model-free, and offline policies) need *high-quality* (long-horizon and clean) demonstrations. 
 - **World Models** can learn from all data, including both *high and low quality* demonstrations. By using **representations** from the world model, we help the offline RL policy learn from imperfect data.
 
-We evaluated the method on several tasks from OGBench. We find that WM-CRL helps the improves final policy success rate on 5/6 imperfect data settings (short trajectory fragments or exploratory behavior). 
+We evaluated the method on several tasks from OGBench. We find that WM-CRL helps improve final policy success rate on 5/6 imperfect data settings (short trajectory fragments or exploratory behavior). 
 
 Potential applications of this method include robotics and decision-making domains where high-quality data is scarce. 
 
