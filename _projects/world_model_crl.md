@@ -16,7 +16,7 @@ related_publications: true
   <div class="row g-3">
     <div class="col-md-6">
       <div class="p-2 border border-1 rounded h-100">
-        <h5 class="text-center mb-2" style="font-size: 1rem;">Puzzle</h5>
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Puzzle Grid (make it blue!)</h5>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-puzzle.gif"
           class="img-fluid rounded"
@@ -29,7 +29,7 @@ related_publications: true
 
     <div class="col-md-6">
       <div class="p-2 border border-1 rounded h-100">
-        <h5 class="text-center mb-2" style="font-size: 1rem;">Cube</h5>
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Cube Manipulation</h5>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-cube.gif"
           class="img-fluid rounded"
@@ -45,7 +45,7 @@ related_publications: true
   <div class="row g-3 mt-1">
     <div class="col-md-6">
       <div class="p-2 border border-1 rounded h-100">
-        <h5 class="text-center mb-2" style="font-size: 1rem;">HumanoidMaze</h5>
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Humanoid Maze</h5>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-humanoidmaze.gif"
           class="img-fluid rounded"
@@ -58,7 +58,7 @@ related_publications: true
 
     <div class="col-md-6">
       <div class="p-2 border border-1 rounded h-100">
-        <h5 class="text-center mb-2" style="font-size: 1rem;">PointMaze</h5>
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Point Maze</h5>
         <img
           src="/assets/video/wmcrl/Adobe%20Express%20-%20mr-crl-sample-pointmaze.gif"
           class="img-fluid rounded"
@@ -74,7 +74,7 @@ related_publications: true
   <div class="row g-3 mt-1">
     <div class="col-lg-8 offset-lg-2">
       <div class="p-2 border border-1 rounded">
-        <h5 class="text-center mb-2" style="font-size: 1rem;">AntMaze</h5>
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Ant Maze</h5>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-antmaze.gif"
           class="img-fluid rounded d-block mx-auto"
