@@ -8,75 +8,79 @@ category: work
 giscus_comments: true
 related_publications: true
 ---
+
 <!-- WM-CRL Results -->
 <section id="wmcrl-results" class="container my-5">
-  <!-- <h2 class="text-center mb-4">Visual Results</h2> -->
 
   <!-- Row 1 -->
-  <div class="row g-4">
+  <div class="row g-3">
     <div class="col-md-6">
-      <div class="p-3 border rounded shadow-sm h-100">
-        <h4 class="text-center mb-3">Cube</h4>
+      <div class="p-2 border border-1 rounded h-100">
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Puzzle</h5>
         <img
-          src="/assets/video/wmcrl/mr-crl-sample-cube.gif"
+          src="/assets/video/wmcrl/mr-crl-sample-puzzle.gif"
           class="img-fluid rounded"
-          alt="WM-CRL Cube environment result gif"
+          alt="WM-CRL Puzzle environment result gif"
           loading="lazy"
+          style="width: 100%; height: auto;"
         />
       </div>
     </div>
 
     <div class="col-md-6">
-      <div class="p-3 border rounded shadow-sm h-100">
-        <h4 class="text-center mb-3">HumanoidMaze</h4>
+      <div class="p-2 border border-1 rounded h-100">
+        <h5 class="text-center mb-2" style="font-size: 1rem;">Cube</h5>
         <img
-          src="/assets/video/wmcrl/mr-crl-sample-humanoidmaze.gif"
+          src="/assets/video/wmcrl/mr-crl-sample-cube.gif"
           class="img-fluid rounded"
-          alt="WM-CRL HumanoidMaze environment result gif"
+          alt="WM-CRL Cube environment result gif"
           loading="lazy"
+          style="width: 100%; height: auto;"
         />
       </div>
     </div>
   </div>
 
   <!-- Row 2 -->
-  <div class="row g-4 mt-1">
+  <div class="row g-3 mt-1">
     <div class="col-md-6">
-      <div class="p-3 border rounded shadow-sm h-100">
-        <h4 class="text-center mb-3">PointMaze</h4>
+      <div class="p-2 border border-1 rounded h-100">
+        <h5 class="text-center mb-2" style="font-size: 1rem;">HumanoidMaze</h5>
         <img
-          src="/assets/video/wmcrl/Adobe%20Express%20-%20mr-crl-sample-pointmaze.gif"
+          src="/assets/video/wmcrl/mr-crl-sample-humanoidmaze.gif"
           class="img-fluid rounded"
-          alt="WM-CRL PointMaze environment result gif"
+          alt="WM-CRL HumanoidMaze environment result gif"
           loading="lazy"
+          style="width: 100%; height: auto;"
         />
       </div>
     </div>
 
     <div class="col-md-6">
-      <div class="p-3 border rounded shadow-sm h-100">
-        <h4 class="text-center mb-3">Puzzle</h4>
-        <!-- If the exact env name is puzzle-3x3-noisy, change the heading above accordingly -->
+      <div class="p-2 border border-1 rounded h-100">
+        <h5 class="text-center mb-2" style="font-size: 1rem;">PointMaze</h5>
         <img
-          src="/assets/video/wmcrl/mr-crl-sample-puzzle.gif"
+          src="/assets/video/wmcrl/Adobe%20Express%20-%20mr-crl-sample-pointmaze.gif"
           class="img-fluid rounded"
-          alt="WM-CRL Puzzle environment result gif"
+          alt="WM-CRL PointMaze environment result gif"
           loading="lazy"
+          style="width: 100%; height: auto;"
         />
       </div>
     </div>
   </div>
 
   <!-- Centered final -->
-  <div class="row g-4 mt-1">
+  <div class="row g-3 mt-1">
     <div class="col-lg-8 offset-lg-2">
-      <div class="p-3 border rounded shadow-sm">
-        <h4 class="text-center mb-3">AntMaze</h4>
+      <div class="p-2 border border-1 rounded">
+        <h5 class="text-center mb-2" style="font-size: 1rem;">AntMaze</h5>
         <img
           src="/assets/video/wmcrl/mr-crl-sample-antmaze.gif"
           class="img-fluid rounded d-block mx-auto"
           alt="WM-CRL AntMaze result gif"
           loading="lazy"
+          style="width: 100%; height: auto;"
         />
       </div>
     </div>
@@ -89,10 +93,11 @@ related_publications: true
 # TLDR
 World Model Contrastive Reinforcement Learning (WM-CRL) is a novel approach to improve the ability of offline RL agents to learn from imperfect and poor-quality training data. 
 
-The method essentially combines representations from a world model with an offline RL policy (CRL). 
-- **World Models** can learn from all data, including both high and low quality demonstrations.
-- Goal-reaching offline **policies** need *high-quality* (long-horizon and clean) demonstrations. 
-By using **representations** from the world model, we help the offline RL policy learn from imperfect data.
+The method essentially combines representations from a World Model (WM) with an offline RL policy (CRL).
+
+The intuition is that WM and CRL require different kinds of data:
+- **Policies** like CRL (goal-reaching, model-free, and offline policies) need *high-quality* (long-horizon and clean) demonstrations. 
+- **World Models** can learn from all data, including both *high and low quality* demonstrations. By using **representations** from the world model, we help the offline RL policy learn from imperfect data.
 
 We evaluated the method on several tasks from OGBench. We find that WM-CRL helps the improves final policy success rate on 5/6 imperfect data settings (short trajectory fragments or exploratory behavior). 
 
