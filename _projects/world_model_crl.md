@@ -1,7 +1,7 @@
 ---
 layout: page
 title: World Model Contrastive Reinforcement Learning
-description: Using representations from a world model to help reinforcement learning agents learn from imperfect training demonstrations. 
+description: Using representations from a world model 🌎 to help reinforcement learning agents 🤖 learn from imperfect training demonstrations. 
 img: assets/wmcrl/puzzle-3x3.png
 importance: 1
 category: work
