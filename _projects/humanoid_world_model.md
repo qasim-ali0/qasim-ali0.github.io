@@ -210,7 +210,6 @@ World foundation models can predict high fidelity and physically plausible futur
 
 [🔗 GitHub Repository](https://github.com/qasim-ali0/humanoid_world_model)
 
-
 ### Citation
 
 If you use this work, please cite our ICML workshop paper:
