@@ -207,8 +207,8 @@ World foundation models can predict high fidelity and physically plausible futur
 | Flow-HWM (Full Sharing) | **110.73** | 20.43 dB | **0.648** | **1.91**     |
 
 ### Code
-Please contact our team if you require the code urgently, a special repo can be sent for you. 
-[🔗 GitHub Repository (coming soon)](https://github.com/qasim-ali0/humanoid_world_model)
+
+[🔗 GitHub Repository](https://github.com/qasim-ali0/humanoid_world_model)
 
 
 ### Citation
