@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: World Models, Reinforcement Learning, and Robot Learning Research
+subtitle: Representation Learning, World Models, and Robot Learning
 
 profile:
   align: right
@@ -27,14 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Qasim Ali, a graduate student at the University of Waterloo. I am advised by [Alexander Wong](https://www.linkedin.com/in/alexander-wong-90650216/) and [Javad Shafiee](https://www.linkedin.com/in/mohammad-javad-shafiee-61bbaa49/).
+Hi! I'm Qasim Ali, a Founding Research Scientist at [GSI (Grounded Superintelligence)](https://www.gsi.company/). We're building **human foundation models**: models trained on egocentric human data at global scale to bring general-purpose physical intelligence to robots 🤖.
 
-I'm interested in building and using [**World Models**](https://www.nvidia.com/en-us/glossary/world-models/) 🌎 to help agents take better actions. While LLMs are great at solving many tasks, I think robust [**System 2 Reasoning**](https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking) 🧠 will require alternative architectures like [*JEPA*](https://openreview.net/pdf?id=BZ5a1r-kVsf) or [*Neural Turing Machines*](https://arxiv.org/abs/1410.5401). I work at the intersection of **generative models** (diffusion and flow), **reinforcement learning**, and **representation learning** on ideas related to this vision.
+I believe **strong representations** are the most important ingredient for learning, and that [**World Models**](https://www.nvidia.com/en-us/glossary/world-models/) 🌎 might be the best way to build them. I see **robotics** as the best testbed for measuring intelligence. If we can solve it, we'll have a learning algorithm efficient enough to scale anywhere. LLMs haven't cracked robotics, which tells me they aren't the last learning algorithm 🧠.
 
-I did a 16 month internship at [Magna Electronic's](https://www.magna.com/company/company-information/magna-groups/magna-electronics) **ADAS division** where I worked with various **embedded** software platforms to help get self-driving features working on vehicles. 
+Before GSI, I was a graduate student at the **University of Waterloo**, advised by [Alexander Wong](https://www.linkedin.com/in/alexander-wong-90650216/) and [Javad Shafiee](https://www.linkedin.com/in/mohammad-javad-shafiee-61bbaa49/), who are now both directors at Apple. My research there covered **world models**, **generative models** (diffusion and flow) and **reinforcement learning**.
 
-I come from an embedded software and robotics background, as I did my undergrad in Mechatronics Engineering. During that time I built a control algorithm for getting vehicles to navigate through V2I-connected intersections for the EcoCar Contest, and built a [*Drone*](https://drive.google.com/file/d/125z5QsjDenNSf7ONLg8X_LwHTOxepNVv/view).
+I come from an **embedded software and robotics** background. In my Mechatronics Engineering undergrad, I built a control algorithm for vehicles navigating V2I-connected intersections for the EcoCar Contest, and built a [*Drone*](https://drive.google.com/file/d/125z5QsjDenNSf7ONLg8X_LwHTOxepNVv/view). I also did a 16-month internship at [Magna Electronics'](https://www.magna.com/company/company-information/magna-groups/magna-electronics) **ADAS division**, working across embedded software platforms to get self-driving features running on vehicles.
 
-If you're into AI research, robotics, or just want to chat about the future of agents 🤖 — feel free to email me!
-
-P.S. I'm graduating soon — if you need help training, finetuning or deploying foundation models, then also feel free to email me.
+If you're into AI research, robotics, or just want to chat about the future of physical intelligence, feel free to email me!
