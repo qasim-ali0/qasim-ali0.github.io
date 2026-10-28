@@ -75,6 +75,11 @@ ninja.data = [{
           description: "Autonomous drone for real-time parking lot occupancy monitoring",
           section: "Projects",handler: () => {
               window.location.href = "/projects/parking_lot_hawk/";
+            },},{id: "projects-robocap-a-new-platform-for-egocentric-robot-learning",
+          title: 'RoboCap: A New Platform for Egocentric Robot Learning',
+          description: "In-the-wild, accurate 3D human data 🖐️ for robot foundation models 🤖.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robocap/";
             },},{id: "projects-world-model-contrastive-reinforcement-learning",
           title: 'World Model Contrastive Reinforcement Learning',
           description: "Using representations from a world model 🌎 to help reinforcement learning agents 🤖 learn from imperfect training demonstrations.",
